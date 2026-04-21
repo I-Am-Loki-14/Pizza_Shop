@@ -1,0 +1,18 @@
+@media (max-width: 1000px) {
+  .nav-container {
+    width: 765px !important;
+  }
+}
+@media (max-width: 770px) {
+  .nav-container {
+    width: 500px !important;
+  }
+  .nav-links {
+    display: none;
+  }
+}
+@media (max-width: 770px) {
+  #menubar {
+    display: block !important;
+  }
+}
