@@ -39,6 +39,11 @@ body {
 .nav_logo {
   font-size: 1.8rem;
 }
+.nav_logo:hover {
+  color: var(--secondary-color);
+  cursor: pointer;
+  transition: ease-in-out 0.3s;
+}
 .nav-links li {
   display: inline;
 }
@@ -101,6 +106,7 @@ body {
 .about_card2 {
   position: relative;
   overflow: hidden;
+  cursor: pointer;
 }
 /* .about_card2 img {
   box-shadow: 1px 1px 3px var(--black-color);
@@ -121,7 +127,7 @@ body {
   align-items: center;
   font-family: var(--font-family);
   color: var(--white-color);
-  font-size: 1.2rem;
+  font-size: 1rem;
   padding: 1rem;
   backdrop-filter: blur(3px);
   /* transform: translateY(-150%); */
