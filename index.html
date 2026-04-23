@@ -197,12 +197,12 @@
     <!-- contact start -->
     <h1 class="contact-title">Contact</h1>
     <section class="contact" id="contact">
-        <form action="" method="get">
+        <form action="" method="get" id="orderForm">
             <h1 class="form_title">Pizza Shop Myanmar</h1>
-            <input type="text" placeholder="Name" required maxlength="30">
-            <input type="email" name="" id="" placeholder="Email" required maxlength="50">
-            <input type="tel" name="" id="" placeholder="Phone" required maxlength="11">
-            <textarea name="" id="" rows="3" placeholder="Your message ..." class="textarea"></textarea>
+            <input type="text" placeholder="Name" required maxlength="30" id="username">
+            <input type="email" name="" placeholder="Email" required maxlength="50" itemid="useremail">
+            <input type="tel" name="" placeholder="Phone" required maxlength="11" item id="userphone">
+            <textarea name="" rows="3" placeholder="Your message ..." class="textarea" itemid="usermessage"></textarea>
             <input type="submit" value="Submit" class="submit">
         </form>
     </section>
@@ -241,6 +241,12 @@
             <a href="###"><i class="fa-brands fa-github"></i></a>
             <a href="###"><i class="fa-brands fa-apple"></i></a>
         </ul>
+    </section>
+
+    <section id="table_form">
+        <table id="table" border="1" class="table">
+
+        </table>
     </section>
     <!-- Up Arrow  -->
     <span class="uparrow">
