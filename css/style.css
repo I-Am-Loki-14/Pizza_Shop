@@ -193,7 +193,8 @@ body {
 .gallery_card img {
   object-fit: cover;
   width: 100%;
-  border-radius: 0.2rem;
+  border-radius: 0.2rem 0.2rem 0 0;
+  overflow: hidden;
 }
 .gallery_info {
   padding: 0 2rem;
